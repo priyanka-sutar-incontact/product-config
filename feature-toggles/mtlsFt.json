@@ -1,0 +1,12 @@
+{
+  "toggleName": "mtlsFt",
+  "license": "mtls",
+  "description": "Feature toggle for MTLS certificate management",
+  "enabled": false,
+  "defaultState": false,
+  "associatedPermissions": [
+    "certificate:create",
+    "certificate:update",
+    "certificate:get"
+  ]
+}

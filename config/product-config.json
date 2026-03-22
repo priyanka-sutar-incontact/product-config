@@ -1,0 +1,22 @@
+{
+  "product": "Certificate Management System",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "id": "mtls",
+      "configFile": "../licenses/mtls.json"
+    }
+  ],
+  "featureToggles": [
+    {
+      "name": "mtlsFt",
+      "configFile": "../feature-toggles/mtlsFt.json"
+    }
+  ],
+  "permissions": [
+    {
+      "privilege": "certificate",
+      "configFile": "../permissions/certificate-permissions.json"
+    }
+  ]
+}

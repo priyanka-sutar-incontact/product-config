@@ -1,0 +1,23 @@
+{
+  "privilege": "certificate",
+  "permissions": [
+    {
+      "name": "certificate:create",
+      "description": "Permission to create certificates",
+      "action": "create",
+      "license": "mtls"
+    },
+    {
+      "name": "certificate:update",
+      "description": "Permission to update certificates",
+      "action": "update",
+      "license": "mtls"
+    },
+    {
+      "name": "certificate:get",
+      "description": "Permission to retrieve certificates",
+      "action": "get",
+      "license": "mtls"
+    }
+  ]
+}
