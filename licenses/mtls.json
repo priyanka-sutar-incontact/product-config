@@ -1,0 +1,21 @@
+{
+  "licenseId": "mtls",
+  "name": "MTLS License",
+  "description": "Mutual TLS certificate management license",
+  "isNew": true,
+  "featureToggle": "mtlsFt",
+  "privilege": "certificate",
+  "actions": ["create", "update", "get"],
+  "permissions": [
+    "certificate:create",
+    "certificate:update",
+    "certificate:get"
+  ],
+  "ootb": true,
+  "ootbConfig": {
+    "type": "userOOTB",
+    "roleName": "Administrator"
+  },
+  "enabled": true,
+  "jiraTicket": "SC-83567"
+}
